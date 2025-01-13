@@ -67,3 +67,5 @@ srem hobbies "jiu jitsu" // remove item from set
 hset person name kyle // set kv pair on hash 'person'
 hget person name // returns kyle
 hgetall person // gets all fields of person
+hexists person name // returns 1
+hexists person age // returns 0
